@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 	
 		for(int i=0;i<3;i++){
-			mobiles.add(new mobile(r.nextInt(99999), "Iphone", "zti"));
+			mobiles.add(new mobile(r.nextInt(99999), "Iphone", "Vladelec"));
 		}
 		for(mobile m: mobiles){
 			System.out.println(m.getNumber()+ " " + m.getName()+ " " + m.getChif());
